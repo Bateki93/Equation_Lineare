@@ -9,6 +9,7 @@ def main():
     B = np.array([5, 7])
     solver = LinearEquationSolver(A, B)
     solver.solve()
+    print(A)
 
 
 if __name__ == "__main__":
